@@ -90,7 +90,7 @@ db.listingsAndReviews.aggregate([
 **Результат:**
 ```[ { _id: 'Istanbul', count: 660 } ]```
 
-4.5. Объект с наибольшим количеством отзывов
+### 4.5. Объект с наибольшим количеством отзывов
 **Запрос:**
 ```javascript
 db.listingsAndReviews.find(
